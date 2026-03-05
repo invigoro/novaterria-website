@@ -1,18 +1,23 @@
-
 body{
     font-family:'EB Garamond', serif;
-    background:#f6f2e9;
-    color:#2d2d2d;
+    background:#0f1419;
+    color:#e6e2d9;
 }
+
+/* Headings */
 
 h1,h2,h3{
     font-family:'Cinzel', serif;
+    color:#f0eadc;
 }
+
+/* Script tagline */
 
 .cursive{
     font-family:'Herr Von Muellerhoff', cursive;
-    letter-spacing: 0.13em;
+    letter-spacing:0.13em;
 }
+
 
 .hero{
     background-image:url("img/screenshot3.png");
@@ -42,81 +47,126 @@ h1,h2,h3{
     padding:60px;
 }
 
+
+/* Section layout */
+
 .section{
     padding:80px 0;
 }
 
+/* Optional alternating sections */
+
+.section:nth-child(even){
+    background:#2c3136;
+}
+
+
+/* Images */
+
 .screenshot{
     border-radius:8px;
-    box-shadow:0 4px 15px rgba(0,0,0,0.25);
+    box-shadow:0 6px 25px rgba(0,0,0,0.6);
 }
 
 .video-frame{
     border-radius:8px;
     overflow:hidden;
-    box-shadow:0 4px 15px rgba(0,0,0,0.25);
+    box-shadow:0 6px 25px rgba(0,0,0,0.6);
 }
+
+
+/* Feature icons */
 
 .feature-icon{
     font-size:2rem;
 }
 
+
+/* Cards */
+
+.card{
+    background:#29313a;
+    color:#e6e2d9;
+    border:none;
+    box-shadow:0 6px 25px rgba(0,0,0,0.5);
+}
+
+.blog-card{
+    border:none;
+    box-shadow:0 6px 25px rgba(0,0,0,0.5);
+}
+
+
+/* Companion cards */
+
 .companion-card img{
     border-radius:6px;
 }
 
-footer{
-    background:#1b1b1b;
-    color:#ccc;
-    padding:40px;
+.companion-card .badge{
+    margin:2px;
+    font-size:0.75rem;
+    letter-spacing:0.03em;
+    background:#2b3640;
 }
-footer a {
-    color:#ccc;
+
+
+/* Portrait frame */
+
+.companion-card .portrait-frame{
+    height:320px;
+    background:#0a0f14;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:10px;
 }
+
+/* Portrait image behavior */
+
+.companion-card .portrait-frame img{
+    height:100%;
+    width:auto;
+    max-width:100%;
+    object-fit:contain;
+    border-radius:6px;
+}
+
+.portrait-frame{
+    border-bottom:3px solid #2b3640;
+}
+
+
+/* Navbar */
 
 .navbar-brand{
     font-family:'Cinzel', serif;
 }
 
+
+/* Tagline */
+
 .tagline{
     font-size:2rem;
 }
 
-.blog-card{
-    border:none;
-    box-shadow:0 4px 15px rgba(0,0,0,0.15);
+
+/* Footer */
+
+footer{
+    background:#080c10;
+    color:#bfc7cf;
+    padding:40px;
 }
 
-.companion-card .badge{
-margin:2px;
-font-size:0.75rem;
-letter-spacing:0.03em;
+footer a{
+    color:#bfc7cf;
 }
 
-/* Portrait frame */
-.companion-card .portrait-frame{
-height:320px;
-background:#111;
-display:flex;
-align-items:center;
-justify-content:center;
-padding:10px;
-}
 
-/* Portrait image behavior */
-.companion-card .portrait-frame img{
-height:100%;
-width:auto;
-max-width:100%;
-object-fit:contain;
-border-radius:6px;
-}
-
-.portrait-frame{
-border-bottom:3px solid #2d2d2d;
-}
+/* Contact cards */
 
 #contact .card{
-border:none;
-box-shadow:0 4px 15px rgba(0,0,0,0.15);
+    border:none;
+    box-shadow:0 6px 25px rgba(0,0,0,0.5);
 }
