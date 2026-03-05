@@ -1,378 +1,432 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Novateria - The New World</title>
+    <title>Novateria - The New World</title>
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Great+Vibes&family=EB+Garamond:wght@400;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Great+Vibes&family=EB+Garamond:wght@400;600&display=swap"
+        rel="stylesheet">
 
-<link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
 
-<!-- NAVBAR -->
+    <!-- NAVBAR -->
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
 
-<a class="navbar-brand" href="#">Novateria</a>
-
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-<span class="navbar-toggler-icon"></span>
-</button>
-
-<div class="collapse navbar-collapse" id="navmenu">
-
-<ul class="navbar-nav ms-auto">
-<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-<li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
-<li class="nav-item"><a class="nav-link" href="#companions">Companions</a></li>
-<li class="nav-item"><a class="nav-link" href="#videos">Gameplay</a></li>
-<li class="nav-item"><a class="nav-link" href="#devblog">Dev Blog</a></li>
-<li class="nav-item"><a class="nav-link" href="./html/contact.html">Contact</a></li>
-</ul>
-
-</div>
-</div>
-</nav>
-
-<!-- HERO -->
-
-<header class="hero">
-<div class="hero-overlay">
-
-<h1 class="display-3">Novateria</h1>
-<p class="tagline cursive">The New World Awaits</p>
-
-<p class="lead mt-4">
-A turn-based RPG adventure set in a mysterious colonial fantasy frontier.
-</p>
-
-</div>
-</header>
-
-<!-- ABOUT -->
-
-<section id="about" class="section">
-<div class="container">
-
-<div class="row align-items-center">
-
-<div class="col-md-6">
-
-<h2>About the Game</h2>
-
-<p>
-<strong><i>Novateria – The New World</i></strong> is a narrative-driven turn-based RPG inspired
-by games like <i>Baldur’s Gate 3</i> and <i>Divinity: Original Sin</i>.
-</p>
-
-<p>
-Players begin their journey sailing to a distant colony in the unexplored lands
-of the <strong>Dovlands</strong>. Upon arrival, the settlement stands mysteriously
-abandoned. No bodies. No survivors. Only scattered clues hinting at what might
-have happened.
-</p>
-
-<p>
-As you investigate the disappearance of the colonists, you will explore a vast
-frontier filled with hidden ruins, hostile creatures, rival expeditions, and
-ancient forces awakening beneath the wilderness.
-</p>
-
-<p>
-The world of Novateria blends a <b>colonial-era aesthetic with high fantasy</b>.
-Spellcasters wield arcane magic while soldiers carry <b>flintlock pistols and
-muskets</b>, creating a setting where enchanted artifacts and black-powder
-firearms coexist.
-</p>
-
-<p>
-Recruit companions, complete quests, and engage in tactical turn-based combat
-against enemies ranging from wild beasts and hostile settlers to undead horrors
-and supernatural threats.
-</p>
-
-</div>
-
-<div class="col-md-6">
-<img src="images/gameplay.jpg" class="img-fluid screenshot">
-</div>
-
-</div>
-
-</div>
-</section>
-
-<!-- FEATURES -->
-
-<!-- COMPANIONS -->
-
-<section id="companions" class="section">
-<div class="container text-center">
-
-<h2>Companions</h2>
-<p class="mb-5">Recruit allies from across the old world and the Dovlands, each bringing their own skills, loyalties, and personal goals.</p>
-
-<div class="row g-4">
-
-<!-- Samuel Rose -->
-
-<div class="col-12 col-sm-6 col-lg-4">
-<div class="card companion-card h-100">
-
-<div class="portrait-frame">
-<img src="img/portrait_samuelrose.png">
-</div>
-
-<div class="card-body">
-
-<h5 class="card-title">Samuel Rose</h5>
-<h6 class="text-muted">🏹 Threcian Tracker</h6>
-
-<p class="card-text">
-One of the founders of the missing colony, Samuel Rose is a skilled hunter and tracker from Threcia. 
-If anyone understands the dangers of the frontier, it is him. Whether he survived the colony’s disappearance 
-—or what he knows about it—remains a mystery.
-</p>
-
-<div class="mt-3">
-<span class="badge bg-secondary">Tracking</span>
-<span class="badge bg-secondary">Survival</span>
-<span class="badge bg-secondary">Ranged Combat</span>
-<span class="badge bg-secondary">Frontier Knowledge</span>
-</div>
-
-</div>
-</div>
-</div>
-
-<!-- Kesegowaase -->
-
-<div class="col-12 col-sm-6 col-lg-4">
-<div class="card companion-card h-100">
-
-<div class="portrait-frame">
-<img src="img/portrait_kesegowaase.png">
-</div>
-
-<div class="card-body">
-
-<h5 class="card-title">Kesegowaase</h5>
-<h6 class="text-muted">🔮 Chatot Magician</h6>
-
-<p class="card-text">
-A respected mage of the Chatot people, Kesegowaase studied both the spiritual magic of his tribe and the 
-arcane traditions of the Allatians. Now he travels the frontier with his daughter so she may learn the same 
-disciplines that shaped his life.
-</p>
-
-<div class="mt-3">
-<span class="badge bg-secondary">Nature Magic</span>
-<span class="badge bg-secondary">Combustion Magic</span>
-<span class="badge bg-secondary">Arcane Knowledge</span>
-<span class="badge bg-secondary">Support</span>
-</div>
-
-</div>
-</div>
-</div>
-
-<!-- Oota Dabin -->
-
-<div class="col-12 col-sm-6 col-lg-4">
-<div class="card companion-card h-100">
-
-<div class="portrait-frame">
-<img src="img/portrait_ootadabin.png">
-</div>
-
-<div class="card-body">
-
-<h5 class="card-title">Oota Dabin</h5>
-<h6 class="text-muted">⚔ Chatot Duelist</h6>
-
-<p class="card-text">
-The daughter of Kesegowaase, Oota Dabin is a fierce fighter who prefers a tomahawk and war club over books 
-and scrolls. She studies magic only to satisfy her father, though her true talent lies on the battlefield.
-</p>
-
-<div class="mt-3">
-<span class="badge bg-secondary">Tomahawk</span>
-<span class="badge bg-secondary">Strife Magic</span>
-<span class="badge bg-secondary">Close Combat</span>
-<span class="badge bg-secondary">Durability</span>
-</div>
-
-</div>
-</div>
-</div>
-
-<!-- Isabella -->
-
-<div class="col-12 col-sm-6 col-lg-4">
-<div class="card companion-card h-100">
-
-<div class="portrait-frame">
-<img src="img/portrait_isabellanotario.png">
-</div>
-
-<div class="card-body">
-
-<h5 class="card-title">Isabella Notario</h5>
-<h6 class="text-muted">⛪ Soranan Priestess</h6>
-
-<p class="card-text">
-A priestess of the Zinovan Order from Sorano, Isabella wields powerful magic of light and healing. 
-She claims to have come to the frontier to serve the faithful—but beneath her devotion lies a secret 
-she is determined to keep hidden.
-</p>
-
-<div class="mt-3">
-<span class="badge bg-secondary">Light Magic</span>
-<span class="badge bg-secondary">Divination Magic</span>
-<span class="badge bg-secondary">Healing</span>
-<span class="badge bg-secondary">Support</span>
-</div>
-
-</div>
-</div>
-</div>
-
-<!-- Heidi -->
-
-<div class="col-12 col-sm-6 col-lg-4">
-<div class="card companion-card h-100">
-
-<div class="portrait-frame">
-<img src="img/portrait_heidifuchs.png">
-</div>
-
-<div class="card-body">
-
-<h5 class="card-title">Heidi Fuchs</h5>
-<h6 class="text-muted">📖 Limish Scholar</h6>
-
-<p class="card-text">
-More scholar than adventurer, Heidi inherited a mysterious treasure map from her legendary explorer 
-grandfather. The map leads deep into the unknown interior of the Dovlands—but she has yet to find 
-anyone willing to accompany her there.
-</p>
-
-<div class="mt-3">
-<span class="badge bg-secondary">Arcane Knowledge</span>
-<span class="badge bg-secondary">Diplomacy</span>
-<span class="badge bg-secondary">Song Magic</span>
-<span class="badge bg-secondary">Lore</span>
-</div>
-
-</div>
-</div>
-</div>
-
-<!-- Tristan -->
-
-<div class="col-12 col-sm-6 col-lg-4">
-<div class="card companion-card h-100">
-
-<div class="portrait-frame">
-<img src="img/portrait_tristanlebeau.png">
-</div>
-
-<div class="card-body">
-
-<h5 class="card-title">Tristan LeBeau</h5>
-<h6 class="text-muted">🗡 Renan Vagabond</h6>
-
-<p class="card-text">
-Born of both Renan and native heritage, Tristan somehow found himself serving as a footsoldier 
-for the Renan colonial forces. The disciplined life of a soldier suits him poorly, and he'd owe his loyalty to whomever can help him slip away from it.
-</p>
-
-<div class="mt-3">
-<span class="badge bg-secondary">Stealth</span>
-<span class="badge bg-secondary">Pistols</span>
-<span class="badge bg-secondary">Lockpicking</span>
-<span class="badge bg-secondary">Trickery Magic</span>
-</div>
-
-</div>
-</div>
-</div>
-
-<!-- Osiyu -->
-
-<div class="col-12 col-sm-6 col-lg-4">
-<div class="card companion-card h-100">
-
-<div class="portrait-frame">
-<img src="img/portrait_osiyu.png">
-</div>
-
-<div class="card-body">
-
-<h5 class="card-title">Osiyu</h5>
-<h6 class="text-muted">🦊 Tompiro Musketeer</h6>
-
-<p class="card-text">
-A skilled marksman of the Tompiro people, Osiyu is the brother of the Tompiro Sachem. 
-He has taken to the frontier in search of his missing brother, fearing that the Sachem 
-may somehow be connected to the mysterious disappearance of the colonists.
-</p>
-
-<div class="mt-3">
-<span class="badge bg-secondary">Muskets</span>
-<span class="badge bg-secondary">Ranged Combat</span>
-<span class="badge bg-secondary">Dark Magic</span>
-<span class="badge bg-secondary">Tracking</span>
-</div>
-
-</div>
-</div>
-</div>
-
-</div>
-</div>
-</section>
-
-<!-- GAMEPLAY VIDEOS -->
-
-<section id="videos" class="section bg-light">
-<div class="container text-center">
-
-<h2>Gameplay</h2>
-
-<div class="row mt-5">
-
-<div class="col-md-6">
-<div class="video-frame">
-<video class="w-100" autoplay muted loop playsinline>
-<source src="videos/gameplay1.mp4" type="video/mp4">
-</video>
-</div>
-</div>
-
-<div class="col-md-6">
-<div class="video-frame">
-<video class="w-100" autoplay muted loop playsinline>
-<source src="videos/gameplay2.mp4" type="video/mp4">
-</video>
-</div>
-</div>
-
-</div>
-
-</div>
-</section>
-
-<!-- DEV BLOG -->
-
-<!-- <section id="devblog" class="section">
+            <a class="navbar-brand" href="#">Novateria</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#companions">Companions</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#videos">Gameplay</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#devblog">Dev Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./html/contact.html">Contact</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+
+    <header class="hero">
+        <div class="hero-overlay">
+
+            <h1 class="display-3">Novateria</h1>
+            <p class="tagline cursive">The New World Awaits</p>
+
+            <p class="lead mt-4">
+                A turn-based RPG adventure set in a mysterious colonial fantasy frontier.
+            </p>
+
+        </div>
+    </header>
+
+    <!-- ABOUT -->
+
+    <section id="about" class="section">
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-md-6">
+
+                    <h2>About the Game</h2>
+
+                    <p>
+                        <strong><i>Novateria – The New World</i></strong> is a narrative-driven turn-based RPG inspired
+                        by games like <i>Baldur’s Gate 3</i> and <i>Divinity: Original Sin</i>.
+                    </p>
+
+                    <p>
+                        Players begin their journey sailing to a distant colony in the unexplored lands
+                        of the <strong>Dovlands</strong>. Upon arrival, the settlement stands mysteriously
+                        abandoned. No bodies. No survivors. Only scattered clues hinting at what might
+                        have happened.
+                    </p>
+
+                    <p>
+                        As you investigate the disappearance of the colonists, you will explore a vast
+                        frontier filled with hidden ruins, hostile creatures, rival expeditions, and
+                        ancient forces awakening beneath the wilderness.
+                    </p>
+
+                    <p>
+                        The world of Novateria blends a <b>colonial-era aesthetic with high fantasy</b>.
+                        Spellcasters wield arcane magic while soldiers carry <b>flintlock pistols and
+                            muskets</b>, creating a setting where enchanted artifacts and black-powder
+                        firearms coexist.
+                    </p>
+
+                    <p>
+                        Recruit companions, complete quests, and engage in tactical turn-based combat
+                        against enemies ranging from wild beasts and hostile settlers to undead horrors
+                        and supernatural threats.
+                    </p>
+
+                </div>
+
+                <div class="col-md-6">
+                    <img src="images/gameplay.jpg" class="img-fluid screenshot">
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features" class="section bg-light">
+        <div class="container text-center">
+            <h2>Game Features</h2>
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="feature-icon">⚔️</div>
+                    <h4>Tactical Turn-Based Combat</h4>
+                    <p>Positioning, abilities, terrain, and teamwork determine victory in strategic encounters.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-icon">🌎</div>
+                    <h4>Explore the Dovlands</h4>
+                    <p>Discover forests, ruins, forgotten settlements, and dangerous wilderness across a new continent.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-icon">🧙</div>
+                    <h4>Magic & Flintlock</h4>
+                    <p>Arcane spellcasting exists alongside muskets, pistols, and black-powder weaponry.</p>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <div class="feature-icon">🧩</div>
+                    <h4>Mystery-Driven Story</h4>
+                    <p>Uncover the truth behind the vanished colony through investigation and player choice.</p>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <div class="feature-icon">🤝</div>
+                    <h4>Companions</h4>
+                    <p>Recruit unique characters with their own backstories, abilities, and loyalties.</p>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <div class="feature-icon">📜</div>
+                    <h4>Quest-Driven RPG</h4>
+                    <p>Side quests, faction conflicts, and exploration shape the fate of the new world.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COMPANIONS -->
+
+    <section id="companions" class="section">
+        <div class="container text-center">
+
+            <h2>Companions</h2>
+            <p class="mb-5">Recruit allies from across the old world and the Dovlands, each bringing their own skills,
+                loyalties, and personal goals.</p>
+
+            <div class="row g-4">
+
+                <!-- Samuel Rose -->
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card companion-card h-100">
+
+                        <div class="portrait-frame">
+                            <img src="img/portrait_samuelrose.png">
+                        </div>
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">Samuel Rose</h5>
+                            <h6 class="text-muted">🏹 Threcian Tracker</h6>
+
+                            <p class="card-text">
+                                One of the founders of the missing colony, Samuel Rose is a skilled hunter and tracker
+                                from Threcia.
+                                If anyone understands the dangers of the frontier, it is him. Whether he survived the
+                                colony’s disappearance
+                                —or what he knows about it—remains a mystery.
+                            </p>
+
+                            <div class="mt-3">
+                                <span class="badge bg-secondary">Tracking</span>
+                                <span class="badge bg-secondary">Survival</span>
+                                <span class="badge bg-secondary">Ranged Combat</span>
+                                <span class="badge bg-secondary">Frontier Knowledge</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kesegowaase -->
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card companion-card h-100">
+
+                        <div class="portrait-frame">
+                            <img src="img/portrait_kesegowaase.png">
+                        </div>
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">Kesegowaase</h5>
+                            <h6 class="text-muted">🔮 Chatot Magician</h6>
+
+                            <p class="card-text">
+                                A respected mage of the Chatot people, Kesegowaase studied both the spiritual magic of
+                                his tribe and the
+                                arcane traditions of the Allatians. Now he travels the frontier with his daughter so she
+                                may learn the same
+                                disciplines that shaped his life.
+                            </p>
+
+                            <div class="mt-3">
+                                <span class="badge bg-secondary">Nature Magic</span>
+                                <span class="badge bg-secondary">Combustion Magic</span>
+                                <span class="badge bg-secondary">Arcane Knowledge</span>
+                                <span class="badge bg-secondary">Support</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Oota Dabin -->
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card companion-card h-100">
+
+                        <div class="portrait-frame">
+                            <img src="img/portrait_ootadabin.png">
+                        </div>
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">Oota Dabin</h5>
+                            <h6 class="text-muted">⚔ Chatot Duelist</h6>
+
+                            <p class="card-text">
+                                The daughter of Kesegowaase, Oota Dabin is a fierce fighter who prefers a tomahawk and
+                                war club over books
+                                and scrolls. She studies magic only to satisfy her father, though her true talent lies
+                                on the battlefield.
+                            </p>
+
+                            <div class="mt-3">
+                                <span class="badge bg-secondary">Tomahawk</span>
+                                <span class="badge bg-secondary">Strife Magic</span>
+                                <span class="badge bg-secondary">Close Combat</span>
+                                <span class="badge bg-secondary">Durability</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Isabella -->
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card companion-card h-100">
+
+                        <div class="portrait-frame">
+                            <img src="img/portrait_isabellanotario.png">
+                        </div>
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">Isabella Notario</h5>
+                            <h6 class="text-muted">⛪ Soranan Priestess</h6>
+
+                            <p class="card-text">
+                                A priestess of the Zinovan Order from Sorano, Isabella wields powerful magic of light
+                                and healing.
+                                She claims to have come to the frontier to serve the faithful—but beneath her devotion
+                                lies a secret
+                                she is determined to keep hidden.
+                            </p>
+
+                            <div class="mt-3">
+                                <span class="badge bg-secondary">Light Magic</span>
+                                <span class="badge bg-secondary">Divination Magic</span>
+                                <span class="badge bg-secondary">Healing</span>
+                                <span class="badge bg-secondary">Support</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Heidi -->
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card companion-card h-100">
+
+                        <div class="portrait-frame">
+                            <img src="img/portrait_heidifuchs.png">
+                        </div>
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">Heidi Fuchs</h5>
+                            <h6 class="text-muted">📖 Limish Scholar</h6>
+
+                            <p class="card-text">
+                                More scholar than adventurer, Heidi inherited a mysterious treasure map from her
+                                legendary explorer
+                                grandfather. The map leads deep into the unknown interior of the Dovlands—but she has
+                                yet to find
+                                anyone willing to accompany her there.
+                            </p>
+
+                            <div class="mt-3">
+                                <span class="badge bg-secondary">Arcane Knowledge</span>
+                                <span class="badge bg-secondary">Diplomacy</span>
+                                <span class="badge bg-secondary">Song Magic</span>
+                                <span class="badge bg-secondary">Lore</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tristan -->
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card companion-card h-100">
+
+                        <div class="portrait-frame">
+                            <img src="img/portrait_tristanlebeau.png">
+                        </div>
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">Tristan LeBeau</h5>
+                            <h6 class="text-muted">🗡 Renan Vagabond</h6>
+
+                            <p class="card-text">
+                                Born of both Renan and native heritage, Tristan somehow found himself serving as a
+                                footsoldier
+                                for the Renan colonial forces. The disciplined life of a soldier suits him poorly, and
+                                he'd owe his loyalty to whomever can help him slip away from it.
+                            </p>
+
+                            <div class="mt-3">
+                                <span class="badge bg-secondary">Stealth</span>
+                                <span class="badge bg-secondary">Pistols</span>
+                                <span class="badge bg-secondary">Lockpicking</span>
+                                <span class="badge bg-secondary">Trickery Magic</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Osiyu -->
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card companion-card h-100">
+
+                        <div class="portrait-frame">
+                            <img src="img/portrait_osiyu.png">
+                        </div>
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">Osiyu</h5>
+                            <h6 class="text-muted">🦊 Tompiro Musketeer</h6>
+
+                            <p class="card-text">
+                                A skilled marksman of the Tompiro people, Osiyu is the brother of the Tompiro Sachem.
+                                He has taken to the frontier in search of his missing brother, fearing that the Sachem
+                                may somehow be connected to the mysterious disappearance of the colonists.
+                            </p>
+
+                            <div class="mt-3">
+                                <span class="badge bg-secondary">Muskets</span>
+                                <span class="badge bg-secondary">Ranged Combat</span>
+                                <span class="badge bg-secondary">Dark Magic</span>
+                                <span class="badge bg-secondary">Tracking</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- GAMEPLAY VIDEOS -->
+
+    <section id="videos" class="section bg-light">
+        <div class="container text-center">
+
+            <h2>Gameplay</h2>
+
+            <div class="row mt-5">
+
+                <div class="col-md-6">
+                    <div class="video-frame">
+                        <video class="w-100" autoplay muted loop playsinline>
+                            <source src="videos/gameplay1.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="video-frame">
+                        <video class="w-100" autoplay muted loop playsinline>
+                            <source src="videos/gameplay2.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- DEV BLOG -->
+
+    <!-- <section id="devblog" class="section">
 <div class="container">
 
 <h2 class="text-center">Development Blog</h2>
@@ -414,23 +468,24 @@ may somehow be connected to the mysterious disappearance of the colonists.
 </div>
 </section> -->
 
-<!-- FOOTER -->
+    <!-- FOOTER -->
 
-<footer>
-<div class="container text-center">
+    <footer>
+        <div class="container text-center">
 
-<p class="cursive">Novateria – The New World</p>
-<p>© 2026 Timothy Wells</p>
-<p><a href='./html/terms.html'>Terms of Use</a> | <a href='./html/privacy.html'>Privacy Policy</a></p>
+            <p class="cursive">Novateria – The New World</p>
+            <p>© 2026 Timothy Wells</p>
+            <p><a href='./html/terms.html'>Terms of Use</a> | <a href='./html/privacy.html'>Privacy Policy</a></p>
 
-</div>
-</footer>
+        </div>
+    </footer>
 
-<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-<script src="./script.js">
-</script>
+    <script src="./script.js">
+    </script>
 
 </body>
+
 </html>
