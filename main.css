@@ -55,6 +55,9 @@ footer{
     color:#ccc;
     padding:40px;
 }
+footer a {
+    color:#ccc;
+}
 
 .navbar-brand{
     font-family:'Cinzel', serif;
@@ -96,4 +99,9 @@ border-radius:6px;
 
 .portrait-frame{
 border-bottom:3px solid #2d2d2d;
+}
+
+#contact .card{
+border:none;
+box-shadow:0 4px 15px rgba(0,0,0,0.15);
 }
