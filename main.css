@@ -170,3 +170,18 @@ footer a{
     border:none;
     box-shadow:0 6px 25px rgba(0,0,0,0.5);
 }
+
+.material-icons{
+vertical-align:middle;
+margin-right:6px;
+}
+
+.feature-icon .material-icons{
+font-size:40px;
+}
+
+.material-symbols-outlined{
+font-size:40px;
+vertical-align:middle;
+margin-right:6px;
+}
